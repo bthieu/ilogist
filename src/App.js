@@ -1,11 +1,12 @@
-import './App.css';
-import Activities from './pages/Activities';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Activities from './pages/Activities';
+import LogView from './pages/LogView';
+import './App.css';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div>home</div>
+    element: <LogView/>
   },
   {
     path: '/*',
