@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Reading",
     "type": "standard",
     "desc": "",
@@ -9,7 +9,7 @@
     "data": null
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "Coding",
     "type": "standard",
     "desc": "",
@@ -18,7 +18,7 @@
     "data": null
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "Money",
     "type": "number",
     "desc": "",
