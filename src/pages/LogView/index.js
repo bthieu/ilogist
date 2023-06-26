@@ -64,7 +64,6 @@ function LogView() {
                   <option key={activity.id} value={activity.id}>{activity.name}</option>
                 ))}
               </select>
-              {logItem?.activity?.id}
             </div>
             <textarea value={logItem.content} onChange={(event) => {handleChangeLogContent(event, logIndex)}}/>
           </div>
